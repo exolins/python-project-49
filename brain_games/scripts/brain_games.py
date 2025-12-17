@@ -2,4 +2,5 @@ def main():
     print("Welcome to Brain Games!")
 
 
-main()
+if __name__ == "__main__":
+    main()
