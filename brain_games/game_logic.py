@@ -20,6 +20,7 @@ def game_round(game_name, user_name):
 
 def game(game_name, user_name):
     count_round_win = 0
+    bg_cli.hello_user(user_name)
     bg_cli.game_welcome_show(game_name)
     while count_round_win < 3:
         if game_round(game_name, user_name):

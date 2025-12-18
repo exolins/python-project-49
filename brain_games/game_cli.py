@@ -13,6 +13,10 @@ def round_win_show():
     print('Correct!')
 
 
+def hello_user(user_name):
+    print(f"Hello, {user_name}")
+
+
 def round_lost_show(answer_user, answer_right, user_name):
     print(f"'{answer_user}' is wrong answer ;(.", end='')
     print(f"Correct answer was '{answer_right}'")
