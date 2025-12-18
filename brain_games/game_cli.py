@@ -30,7 +30,7 @@ def game_win_show(user_name):
 def game_welcome_show(game_name):
     match game_name:
         case 'even':
-            print('Answer "yes" if the number is even, otherwise answer "no"')
+            print('Answer "yes" if the number is even, otherwise answer "no".')
         case 'calc':
             print('What is the result of the expression?')
         case 'progression':
