@@ -31,6 +31,8 @@ def game_welcome_show(game_name):
             print('What is the result of the expression?')
         case 'progression':
             print('What number missing in the progression?')
+        case 'prime':
+            print('Answer "yes" if given number is prime. Otherwise answer "no"')
 
 
 def prompt_user_name():
