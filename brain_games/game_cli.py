@@ -34,7 +34,7 @@ def game_welcome_show(game_name):
         case "calc":
             print("What is the result of the expression?")
         case "progression":
-            print("What number missing in the progression?")
+            print("What number is missing in the progression?")
         case "prime":
             print(
                 'Answer "yes" if given number is prime. Otherwise answer "no".'
