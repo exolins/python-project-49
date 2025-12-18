@@ -6,7 +6,7 @@ def question_progression():
     start = random.randint(1, 20)
     step = random.randint(1, 10)
     count = random.randint(5, 10)
-    miss = random.randint(0, count)
+    miss = random.randint(0, count - 1)
     question = ()
     answer = 0
 
