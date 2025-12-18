@@ -20,7 +20,7 @@ def hello_user(user_name):
 def round_lost_show(answer_user, answer_right, user_name):
     print(f"'{answer_user}' is wrong answer ;(.", end='')
     print(f"Correct answer was '{answer_right}'")
-    print(f"Let's try anain, {user_name}!")
+    print(f"Let's try again, {user_name}!")
 
 
 def game_win_show(user_name):
