@@ -2,15 +2,15 @@ import prompt
 
 
 def question_show(question):
-    print(f'Question: {question}')
+    print(f"Question: {question}")
 
 
 def answer_prompt():
-    return prompt.string('Your answer: ')
+    return prompt.string("Your answer: ")
 
 
 def round_win_show():
-    print('Correct!')
+    print("Correct!")
 
 
 def hello_user(user_name):
@@ -18,7 +18,7 @@ def hello_user(user_name):
 
 
 def round_lost_show(answer_user, answer_right, user_name):
-    print(f"'{answer_user}' is wrong answer ;(.", end='')
+    print(f"'{answer_user}' is wrong answer ;(.", end="")
     print(f"Correct answer was '{answer_right}'")
     print(f"Let's try again, {user_name}!")
 
@@ -29,19 +29,23 @@ def game_win_show(user_name):
 
 def game_welcome_show(game_name):
     match game_name:
-        case 'even':
+        case "even":
             print('Answer "yes" if the number is even, otherwise answer "no".')
-        case 'calc':
-            print('What is the result of the expression?')
-        case 'progression':
-            print('What number missing in the progression?')
-        case 'prime':
-            print('Answer "yes" if given number is prime. Otherwise answer "no".')
+        case "calc":
+            print("What is the result of the expression?")
+        case "progression":
+            print("What number missing in the progression?")
+        case "prime":
+            print(
+                'Answer "yes" if given number is prime. Otherwise answer "no".'
+            )
+        case "gcd":
+            print("Find the greatest common divisor of given numbers.")
 
 
 def prompt_user_name():
-    return prompt.string('May I have your name? ')
+    return prompt.string("May I have your name? ")
 
 
 def welcome_to_brain_games():
-    print('Welcome to the Brain Games')
+    print("Welcome to the Brain Games")

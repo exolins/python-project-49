@@ -2,16 +2,18 @@ from brain_games.games.brain_calc import question_calc
 from brain_games.games.brain_even import question_even
 from brain_games.games.brain_prime import question_prime
 from brain_games.games.brain_progression import question_progression
+from brain_games.games.brain_gcd import question_gcd
 
 
 def generate_question(game_name):
-	match game_name:
-		case 'even':
-			return question_even()
-		case 'calc':
-			return question_calc()
-		case 'progression':
-			return question_progression()
-		case 'prime':
-			return question_prime()
-		
+    match game_name:
+        case "even":
+            return question_even()
+        case "calc":
+            return question_calc()
+        case "progression":
+            return question_progression()
+        case "prime":
+            return question_prime()
+        case "gcd":
+            return question_gcd()
