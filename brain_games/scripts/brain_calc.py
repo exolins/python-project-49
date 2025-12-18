@@ -5,7 +5,7 @@ from brain_games.game_logic import game
 def main():
     welcome_to_brain_games()
     user_name = prompt_user_name()
-    game('even', user_name)    
+    game('calc', user_name)    
     
 
 
