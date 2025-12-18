@@ -29,6 +29,8 @@ def game_welcome_show(game_name):
             print('Answer "yes" if the number is even, otherwise answer "no"')
         case 'calc':
             print('What is the result of the expression?')
+        case 'progression':
+            print('What number missing in the progression?')
 
 
 def prompt_user_name():
