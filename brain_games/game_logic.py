@@ -26,7 +26,7 @@ def game(game_name, user_name):
         if game_round(game_name, user_name):
             count_round_win += 1
         else:
-            count_round_win = 0
+            return
     bg_cli.game_win_show(user_name)
     
 
