@@ -1,7 +1,7 @@
 from brain_games.brain_calc import question_calc
 from brain_games.brain_even import question_even
+from brain_games.brain_prime import question_prime
 from brain_games.brain_progression import question_progression
-from brain_games.prime import question_prime
 
 
 def generate_question(game_name):

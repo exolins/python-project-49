@@ -1,5 +1,7 @@
 import random
-#prime
+
+# prime
+
 
 def is_prime(number):
     if number == 1:
@@ -9,8 +11,6 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-
-
 
 
 def question_prime():
