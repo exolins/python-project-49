@@ -24,7 +24,7 @@ def round_lost_show(answer_user, answer_right, user_name):
 
 
 def game_win_show(user_name):
-    print(f"Congratulations, {user_name}")
+    print(f"Congratulations, {user_name}!")
 
 
 def game_welcome_show(game_name):
